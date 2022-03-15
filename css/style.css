@@ -14,7 +14,7 @@ body{
 .bg-2 {
     padding: 30px 20%;
     text-align: center;
-    background: url("img/back.png");
+    background: url("../img/back.png");
     text-align: center;
     overflow: hidden;
 }
@@ -26,11 +26,12 @@ body{
 }
 .header h2{
     text-transform: uppercase;
-    padding-top: 30px;
-    font-size: 30px;
+    padding-top: 50px;
+    margin: 0;
+    font-size: 40px;
 }
 .header p{
-    font-size: 11px;
+    font-size: 12px;
     margin-bottom: 90px;
 }
 .header a{
@@ -65,3 +66,68 @@ body{
     font-size: 12px;
 }
 /* Service Section  End*/
+/* Project Section */
+.project h2{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.project .menu {
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+.project .menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.project .menu ul li {
+    float: left;
+    padding: 0 20px;
+}
+.project .menu ul li a {
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 15px;
+    padding: 5px;
+}
+.project .menu ul li a:hover,
+.project .menu ul li .active{
+    border-bottom: 2px solid #7b77c9;
+}
+.project .product {
+    margin-top: 70px;
+
+}
+.project .col{
+    width: 29.33%;
+    margin: 2%;
+    float: left;
+    text-align: center;
+    /* text-align: justify; */
+
+}
+.project .col img{
+    width: 100%;
+}
+
+.project .col h4{
+    font-size: 15px;
+    text-transform: capitalize;
+    margin: 5px;
+}
+.project .col p {
+    font-size: 12px;
+    margin: 0;
+}
+.project button {
+    margin: 30px;
+    background-color: #7b77c9;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 15px;
+}
+
+/* Project Section End */
