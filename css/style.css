@@ -3,21 +3,39 @@ body{
     padding: 0px;
     margin: 0px;
 }
-
-.bg-1{
+.bg-1 {
     padding: 30px 20%;
     background-color: black;
     text-align: center;
     color: white;
 
 }
-.bg-1 a{
-    text-decoration: none;
-    padding: 30px;
-}
-.bg-2{
+.bg-2 {
     padding: 30px 20%;
     text-align: center;
     background-image: url('img/back.png');
     text-align: center;
 }
+
+/* Header Style */
+.header img {
+    width: 10%;
+    padding: 30px; 
+}
+.header h2{
+    text-transform: uppercase;
+    padding-top: 30px;
+    font-size: 30px;
+}
+.header p{
+    font-size: 11px;
+    margin-bottom: 90px;
+}
+.header a{
+    border: 1px solid white;
+    color: white;
+    text-decoration: none;
+    padding: 10px 12px;
+    border-radius: 50%;
+}
+/* Header Style End */
