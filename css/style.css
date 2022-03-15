@@ -1,0 +1,23 @@
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.bg-1{
+    padding: 30px 20%;
+    background-color: black;
+    text-align: center;
+    color: white;
+
+}
+.bg-1 a{
+    text-decoration: none;
+    padding: 30px;
+}
+.bg-2{
+    padding: 30px 20%;
+    text-align: center;
+    background-image: url('img/back.png');
+    text-align: center;
+}
