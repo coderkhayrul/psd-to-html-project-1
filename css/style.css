@@ -99,7 +99,8 @@ body{
     margin-top: 70px;
 
 }
-.project .col{
+.project .col,
+.photography .col{
     width: 29.33%;
     margin: 2%;
     float: left;
@@ -107,7 +108,8 @@ body{
     /* text-align: justify; */
 
 }
-.project .col img{
+.project .col img,
+.photography .col img{
     width: 100%;
 }
 
@@ -120,7 +122,8 @@ body{
     font-size: 12px;
     margin: 0;
 }
-.project button {
+.project button,
+.photography button {
     margin: 30px;
     background-color: #7b77c9;
     color: #fff;
@@ -129,5 +132,44 @@ body{
     padding: 10px 20px;
     font-size: 15px;
 }
-
 /* Project Section End */
+/* Photographic Section */
+.photography h2{
+    text-transform: uppercase;
+    font-size: 35px;
+}
+.photography p {
+    font-size: 16px;
+}
+/* Photographic Section End */
+/* Newsletter Section */
+.newsletter{
+    padding:100px 0;
+}
+.newsletter a {
+    color: #fff;
+}
+.newsletter p{
+    font-size: 12px;
+    padding-bottom: 20px;
+}
+.newsletter input {
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px 0 0 5px;
+    font-size: 13px;
+    margin-right: 2px;
+}
+.newsletter button {
+    border: none;
+    padding: 10px 30px;
+    border-radius: 0 5px 5px 0;
+    font-size: 13px;
+    background-color: #7b77c9;
+    color: #fff;
+}
+
+.newsletter .form-box{
+    padding: 0 30px;
+}
+/* Newsletter Section End */
