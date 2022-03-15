@@ -17,6 +17,10 @@
     }
 }
 
+/* @media all and (max-width: 1180px) {
+
+} */
+
 @media all and (max-width: 1024px) {
     .project .menu {
         margin-left: 60px;
