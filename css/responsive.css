@@ -1,0 +1,133 @@
+/* All Device Responsive  */
+@media all and (max-width: 1600px) {
+    .project .menu {
+        margin-left: 210px;
+    }
+}
+
+@media all and (max-width: 1366px) {
+    .project .menu {
+        margin-left: 159px;
+    }
+}
+
+@media all and (max-width: 1280px) {
+    .project .menu {
+        margin-left: 137px;
+    }
+}
+
+@media all and (max-width: 1024px) {
+    .project .menu {
+        margin-left: 60px;
+    }
+}
+
+@media all and (max-width: 896px) {
+    .bg-1 {
+        padding: 30px 9%;
+        background-color: black;
+        text-align: center;
+        color: white;
+        overflow: hidden;
+    }
+
+    .bg-2 {
+        padding: 30px 9%;
+    }
+
+    .header img {
+        width: 47%;
+    }
+
+    .header h2 {
+        font-size: 31px;
+    }
+
+    .header p {
+        font-size: 10px;
+    }
+
+    /* Service */
+    .service .service-txt {
+        padding: 0;
+    }
+
+    .service h2 {
+        font-size: 40px;
+    }
+
+    .service h4 {
+        font-size: 15px;
+    }
+
+    .service .col {
+        width: 90%;
+    }
+
+    .service h4 {
+        font-size: 13px;
+    }
+
+    /* Project  */
+    .project .menu ul li {
+        float: left;
+        padding: 14px 55px;
+    }
+
+    .project .col,
+    .photography .col {
+        width: 75.33%;
+        margin: 12%;
+    }
+
+    .project button,
+    .photography button {
+        margin: 25px;
+        border-radius: 8px;
+        padding: 10px 25px;
+        font-size: 17px;
+    }
+
+    /* Photographic */
+    .photography p {
+        font-size: 18px;
+    }
+
+    .photography button {
+        margin: 17px;
+        padding: 13px 17px;
+        font-size: 15px;
+    }
+
+    /* Newsletter */
+    .newsletter p {
+        font-size: 11px;
+        padding-bottom: 20px;
+    }
+
+    .newsletter input {
+        padding: 10px 13px;
+    }
+
+    /* Footer */
+    .footer p {
+        font-size: 12px;
+    }
+
+
+}
+
+@media all and (max-width: 812px) {
+    .newsletter input {
+        padding: 10px 9px;
+        font-size: 12px;
+        margin-right: 0;
+    }
+
+    .newsletter button {
+        padding: 10px 20px;
+        border-radius: 0 5px 5px 0;
+        font-size: 13px;
+    }
+}
